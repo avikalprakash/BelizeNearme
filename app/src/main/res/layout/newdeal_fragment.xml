@@ -1,0 +1,455 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_rect">
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+
+        <android.support.v4.widget.NestedScrollView
+            android:id="@+id/nestedScrollView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+
+
+            >
+
+            <ScrollView
+                android:id="@+id/scrollView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    >
+
+
+                    <android.support.design.widget.AppBarLayout
+                        android:id="@+id/appbarLayout"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:theme="@style/AppTheme.AppBarOverlay">
+
+
+                        <android.support.v7.widget.Toolbar
+                            android:id="@+id/toolbar"
+                            android:layout_width="match_parent"
+                            android:layout_height="?attr/actionBarSize"
+                            android:background="@color/toolbar_color"
+                            app:layout_collapseMode="pin"
+                            app:popupTheme="@style/AppTheme.PopupOverlay" />
+
+                    </android.support.design.widget.AppBarLayout>
+
+                    <HorizontalScrollView
+                        android:id="@+id/horizontalScollView"
+                        android:layout_width="match_parent"
+
+                        android:layout_height="wrap_content">
+                        <LinearLayout
+                            android:id="@+id/categoryLayout"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal"
+                            >
+
+                            <android.support.v7.widget.CardView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                app:cardBackgroundColor="@color/black_trans_50"
+                                android:layout_marginLeft="5dp"
+                                android:layout_marginRight="5dp"
+
+                                >
+
+                                <LinearLayout
+                                    android:id="@+id/realEstateBtn"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="70dp"
+                                    android:orientation="vertical"
+                                    android:layout_gravity="center_vertical"
+                                    android:padding="5dp"
+
+                                    >
+                                    <android.support.v7.widget.AppCompatImageView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="40dp"
+                                        android:background="@drawable/realestate"
+                                        android:layout_gravity="center_horizontal"
+                                        />
+
+                                    <android.support.v7.widget.AppCompatTextView
+                                        android:id="@+id/realEstateText"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:text="@string/real_estate"
+                                        android:textAllCaps="true"
+                                        android:textSize="12sp"
+                                        android:layout_gravity="center_horizontal"
+                                        />
+
+                                </LinearLayout>
+                            </android.support.v7.widget.CardView>
+
+                            <android.support.v7.widget.CardView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                app:cardBackgroundColor="@color/black_trans_50"
+                                android:layout_marginLeft="5dp"
+                                android:layout_marginRight="5dp"
+
+                                >
+
+                                <LinearLayout
+                                    android:id="@+id/employmentBtn"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="70dp"
+                                    android:orientation="vertical"
+                                    android:layout_gravity="center_vertical"
+                                    android:padding="5dp"
+
+                                    >
+                                    <android.support.v7.widget.AppCompatImageView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="40dp"
+                                        android:background="@drawable/employment"
+                                        android:layout_gravity="center_horizontal"
+                                        />
+
+                                    <android.support.v7.widget.AppCompatTextView
+                                        android:id="@+id/employmentText"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:text="@string/employment"
+                                        android:textAllCaps="true"
+                                        android:textSize="12sp"
+                                        android:layout_gravity="center_horizontal"
+                                        />
+
+                                </LinearLayout>
+                            </android.support.v7.widget.CardView>
+
+
+
+
+
+                            <android.support.v7.widget.CardView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                app:cardBackgroundColor="@color/black_trans_50"
+                                android:layout_marginLeft="5dp"
+                                android:layout_marginRight="5dp"
+
+                                >
+
+                                <LinearLayout
+                                    android:id="@+id/sponsoredBtn"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="70dp"
+                                    android:orientation="vertical"
+                                    android:layout_gravity="center_vertical"
+                                    android:padding="5dp"
+
+                                    >
+                                    <android.support.v7.widget.AppCompatImageView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="40dp"
+                                        android:background="@drawable/sponsored"
+                                        android:layout_gravity="center_horizontal"
+                                        />
+
+                                    <android.support.v7.widget.AppCompatTextView
+                                        android:id="@+id/sponsoredText"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:text="@string/sponsored"
+                                        android:textAllCaps="true"
+                                        android:textSize="12sp"
+                                        android:layout_gravity="center_horizontal"
+                                        />
+
+                                </LinearLayout>
+                            </android.support.v7.widget.CardView>
+
+                            <android.support.v7.widget.CardView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                app:cardBackgroundColor="@color/black_trans_50"
+                                android:layout_marginLeft="5dp"
+                                android:layout_marginRight="5dp"
+
+                                >
+                                <LinearLayout
+                                    android:id="@+id/carsBtn"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="70dp"
+                                    android:orientation="vertical"
+                                    android:layout_gravity="center_vertical"
+                                    android:padding="5dp"
+
+                                    >
+                                    <android.support.v7.widget.AppCompatImageView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="40dp"
+                                        android:background="@drawable/cars"
+                                        android:layout_gravity="center_horizontal"
+                                        />
+
+                                    <android.support.v7.widget.AppCompatTextView
+                                        android:id="@+id/carsText"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:text="@string/cars_automatives"
+                                        android:textAllCaps="true"
+                                        android:textSize="12sp"
+                                        android:layout_gravity="center_horizontal"
+                                        />
+
+                                </LinearLayout>
+                            </android.support.v7.widget.CardView>
+
+
+                            <android.support.v7.widget.CardView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                app:cardBackgroundColor="@color/black_trans_50"
+                                android:layout_marginLeft="5dp"
+                                android:layout_marginRight="5dp"
+
+                                >
+
+                                <LinearLayout
+                                    android:id="@+id/generalBtn"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="70dp"
+                                    android:orientation="vertical"
+                                    android:layout_gravity="center_vertical"
+                                    android:padding="5dp"
+
+                                    >
+                                    <android.support.v7.widget.AppCompatImageView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="40dp"
+                                        android:background="@drawable/general"
+                                        android:layout_gravity="center_horizontal"
+                                        />
+
+                                    <android.support.v7.widget.AppCompatTextView
+                                        android:id="@+id/generalText"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:text="@string/general"
+                                        android:textAllCaps="true"
+                                        android:textSize="12sp"
+                                        android:layout_gravity="center_horizontal"
+                                        />
+
+                                </LinearLayout>
+                            </android.support.v7.widget.CardView>
+
+
+                            <android.support.v7.widget.CardView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                app:cardBackgroundColor="@color/black_trans_50"
+                                android:layout_marginLeft="5dp"
+                                android:layout_marginRight="5dp"
+
+                                >
+                                <LinearLayout
+                                    android:id="@+id/entertainmentBtn"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="70dp"
+                                    android:orientation="vertical"
+                                    android:layout_gravity="center_vertical"
+                                    android:padding="5dp"
+
+                                    >
+                                    <android.support.v7.widget.AppCompatImageView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="40dp"
+                                        android:background="@drawable/entertainment"
+                                        android:layout_gravity="center_horizontal"
+                                        />
+
+                                    <android.support.v7.widget.AppCompatTextView
+                                        android:id="@+id/entertainmentText"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:text="@string/entertainment"
+                                        android:textAllCaps="true"
+                                        android:textSize="12sp"
+                                        android:layout_gravity="center_horizontal"
+                                        />
+
+                                </LinearLayout>
+                            </android.support.v7.widget.CardView>
+
+
+                            <android.support.v7.widget.CardView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                app:cardBackgroundColor="@color/black_trans_50"
+                                android:layout_marginLeft="5dp"
+                                android:layout_marginRight="5dp"
+
+                                >
+
+                                <LinearLayout
+                                    android:id="@+id/noticesBtn"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="70dp"
+                                    android:orientation="vertical"
+                                    android:layout_gravity="center_vertical"
+                                    android:padding="5dp"
+
+                                    >
+                                    <android.support.v7.widget.AppCompatImageView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="40dp"
+                                        android:background="@drawable/notice"
+                                        android:layout_gravity="center_horizontal"
+                                        />
+
+                                    <android.support.v7.widget.AppCompatTextView
+                                        android:id="@+id/noticesText"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:text="@string/notices"
+                                        android:textAllCaps="true"
+                                        android:textSize="12sp"
+                                        android:layout_gravity="center_horizontal"
+                                        />
+
+                                </LinearLayout>
+                            </android.support.v7.widget.CardView>
+
+
+                            <android.support.v7.widget.CardView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                app:cardBackgroundColor="@color/black_trans_50"
+                                android:layout_marginLeft="5dp"
+                                android:layout_marginRight="5dp"
+
+                                >
+                                <LinearLayout
+                                    android:id="@+id/personalBtn"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="70dp"
+                                    android:orientation="vertical"
+                                    android:layout_gravity="center_vertical"
+                                    android:padding="5dp"
+
+                                    >
+                                    <android.support.v7.widget.AppCompatImageView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="40dp"
+                                        android:background="@drawable/occasion"
+                                        android:layout_gravity="center_horizontal"
+                                        />
+
+                                    <android.support.v7.widget.AppCompatTextView
+                                        android:id="@+id/personalText"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:text="@string/personal"
+                                        android:textAllCaps="true"
+                                        android:textSize="12sp"
+                                        android:layout_gravity="center_horizontal"
+                                        />
+
+                                </LinearLayout>
+                            </android.support.v7.widget.CardView>
+
+
+
+
+                            <android.support.v7.widget.CardView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                app:cardBackgroundColor="@color/black_trans_50"
+                                android:layout_marginLeft="5dp"
+                                android:layout_marginRight="5dp"
+
+                                >
+                                <LinearLayout
+                                    android:id="@+id/tutoringBtn"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="70dp"
+                                    android:orientation="vertical"
+                                    android:layout_gravity="center_vertical"
+                                    android:padding="5dp"
+
+                                    >
+                                    <android.support.v7.widget.AppCompatImageView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="40dp"
+                                        android:background="@drawable/tutoring"
+                                        android:layout_gravity="center_horizontal"
+                                        />
+
+                                    <android.support.v7.widget.AppCompatTextView
+                                        android:id="@+id/tutoringText"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:text="@string/tutoring_service"
+                                        android:textAllCaps="true"
+                                        android:textSize="12sp"
+                                        android:layout_gravity="center_horizontal"
+                                        />
+
+                                </LinearLayout>
+                            </android.support.v7.widget.CardView>
+
+                        </LinearLayout>
+
+                    </HorizontalScrollView>
+
+
+                    <android.support.v7.widget.RecyclerView
+                        android:id="@+id/recyclerView"
+                        android:name="belizenearme.infoservices.lue.belize.ItemFragment"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        app:layoutManager="LinearLayoutManager"
+                        tools:listitem="@layout/fragment_item" />
+
+
+
+
+                    <android.support.v7.widget.AppCompatTextView
+                        android:id="@+id/loadmoreText"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/load_more"
+                        android:textSize="16sp"
+                        android:gravity="center_horizontal"
+                        android:background="@color/grey_transparent"
+                        android:layout_gravity="center_horizontal"
+                        />
+                </LinearLayout>
+            </ScrollView>
+
+        </android.support.v4.widget.NestedScrollView>
+
+    </LinearLayout>
+
+
+
+</RelativeLayout>

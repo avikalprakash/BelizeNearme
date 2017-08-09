@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#705572"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="belizenearme.infoservices.lue.belize.FeedbackActivity"
+    tools:showIn="@layout/activity_feedback">
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_marginLeft="10dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:id="@+id/feedbacktile"
+        android:text="Submit a Request"
+        android:textSize="30sp"
+        android:textColor="@color/white"
+        android:layout_marginTop="30dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:id="@+id/Subject"
+        android:text="Subject"
+        android:layout_marginTop="20dp"
+        android:textSize="20sp"
+        android:textColor="@color/white"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:inputType="text"
+        android:maxLength="30"
+        android:textSize="20sp"
+        android:id="@+id/subject"/>
+    <TextView
+        android:layout_width="375dp"
+        android:layout_height="40dp"
+        android:id="@+id/reqSubject"
+        android:text="Register Phone/Email"
+        android:textSize="20sp"
+        android:textColor="@color/white"
+        android:layout_marginTop="20dp"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:inputType="text"
+        android:maxLength="30"
+        android:textSize="20sp"
+        android:id="@+id/enteremailphn" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:id="@+id/description"
+        android:text="Description"
+        android:textSize="20sp"
+        android:textColor="@color/white"
+        android:layout_marginTop="30dp"/>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:inputType="text"
+        android:maxLength="100"
+        android:maxLines="5"
+        android:textSize="20sp"
+        android:id="@+id/enterdescription"/>
+    </ScrollView>
+
+    <Button
+        android:text="Submit"
+        android:layout_width="150sp"
+        android:layout_height="40sp"
+        android:textAlignment="center"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:textSize="18sp"
+        android:textColor="@color/white"
+        android:background="@drawable/button_rect"
+        android:id="@+id/submitreq"
+        android:layout_marginBottom="60dp"
+        android:layout_marginTop="10dp"/>
+
+    </LinearLayout>
+
+</RelativeLayout>
+</ScrollView>
+</RelativeLayout>

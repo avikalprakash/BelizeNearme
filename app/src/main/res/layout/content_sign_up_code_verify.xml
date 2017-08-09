@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_rect"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="belizenearme.infoservices.lue.belize.SignUpCodeVerifyActivity"
+    tools:showIn="@layout/activity_sign_up_code_verify">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="10dp"
+        >
+
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20sp"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:id="@+id/verifyText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:gravity="center"
+                android:textSize="18sp"
+                android:textColor="@color/colorPrimaryDark"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:ellipsize="end" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="0dp"
+                android:layout_gravity="center_horizontal"
+                android:orientation="vertical"
+                android:padding="10dp"
+                >
+
+                <android.support.design.widget.TextInputLayout
+                    android:id="@+id/verificationCodeLayout"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    >
+                    <EditText
+                        android:id="@+id/verificationCodeEdit"
+                        android:layout_width="match_parent"
+                        android:layout_marginTop="5dip"
+                        android:layout_height="wrap_content"
+                        android:hint="@string/enter_verification_code"
+                        android:inputType="textEmailAddress"
+                        android:textColor="@color/input_txt"
+                        android:textSize="@dimen/input_txt_size_xlarge"
+                        android:textColorHint="@color/hint_input_txt" />
+                </android.support.design.widget.TextInputLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginTop="10dp">
+
+                <Button
+                    android:id="@+id/verifydBtn"
+                    android:layout_width="265dip"
+                    android:layout_height="40dip"
+                    android:layout_marginTop="5dip"
+                    android:background="@drawable/button_rect"
+                    android:layout_gravity="center_horizontal"
+                    android:text="@string/verify"
+                    android:gravity="center"
+                    android:textColor="@color/white"
+                    android:textStyle="bold" />
+
+
+
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+    </RelativeLayout>
+
+</android.support.constraint.ConstraintLayout>

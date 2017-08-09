@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#705572"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="belizenearme.infoservices.lue.belize.FaqActivity"
+    tools:showIn="@layout/activity_faq">
+<ScrollView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_marginLeft="10dp"
+    android:layout_marginRight="10dp"
+    android:layout_marginTop="10dp">
+
+    <TextView
+        android:id="@+id/faq1"
+        android:text="What is BelizeNearme?"
+        android:textStyle="bold"
+        android:textSize="16sp"
+        android:textColor="@color/white"
+        android:layout_width="match_parent"
+        android:layout_height="25dp"/>
+<WebView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:id="@+id/web1"
+    android:background="#7f576f"
+    ></WebView>
+   <!-- <TextView
+        android:id="@+id/fa1"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:text="BelizeNearme is the fun and easy way to buy &amp; sell items and services with your phone. Snap a photo, enter a short description, and be selling to thousands of potential buyers within seconds. BelizeNearme uses your phone's GPS location to reach a multitude of buyers and sellers in your area. And making an offer is as quick and easy as sending a text message."
+        android:textSize="16sp"
+        android:textColor="@color/white"
+        android:textAlignment="gravity"/>-->
+
+    <TextView
+        android:id="@+id/faq2"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text="Where is BelizeNearme currently available? Are there plans to expand?"
+        android:textSize="16sp"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:layout_marginTop="10dp"/>
+    <WebView
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/web2"
+        android:background="#7f576f"></WebView>
+   <!-- <TextView
+        android:id="@+id/fa2"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="Our main focus is Belize. You have full access to application Overall Belize."
+        android:textSize="16sp"
+        android:textColor="@color/white"/>-->
+
+
+
+    <TextView
+        android:id="@+id/faq3"
+        android:layout_width="match_parent"
+        android:layout_height="25dp"
+        android:text="Where can users find the BelizeNearme app?"
+        android:textStyle="bold"
+        android:textSize="16sp"
+        android:textColor="@color/white"/>
+    <WebView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/web3"
+        android:background="#7f576f"></WebView>
+    <!--<TextView
+        android:id="@+id/fa3"
+        android:layout_width="match_parent"
+        android:layout_height="240sp"
+        android:text="The app, available for Android devices, can be downloaded for free via the Google Play marketplace. BelizeNearme is free to use for both buyers and sellers. It is very easy to list an item, to contact sellers, and how safe it is to make a deal, they never look back to other platforms.
+         Users who buy or sell one item successfully are more likely to do so a second time. In each city BelizeNearme enters we are rapidly expanding both the number of items listed and sold, and more people are converting to BelizeNearme fans."
+        android:textSize="16sp"
+        android:textColor="@color/white"
+        android:textAlignment="gravity"/>-->
+    <TextView
+        android:id="@+id/faq4"
+        android:layout_width="match_parent"
+        android:layout_height="25dp"
+        android:text="Is BelizeNearme safe and secure?"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/white"/>
+    <WebView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/web4"
+        android:background="#7f576f"
+        android:layout_marginBottom="16dp"></WebView>
+   <!-- <TextView
+        android:layout_width="match_parent"
+        android:layout_height="180dp"
+        android:text="Safety is our number one priority. BelizeNearme has a comprehensive system to identify and quickly disable any account with suspicious or fraudulent activity. Our goal always is to create a vibrant, worry-free marketplace for all users."
+        android:textSize="16sp"
+        android:textColor="@color/white"
+        android:layout_marginBottom="@dimen/text_margin"/>-->
+</LinearLayout>
+    </RelativeLayout>
+</ScrollView>
+</RelativeLayout>

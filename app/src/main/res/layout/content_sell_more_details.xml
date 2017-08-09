@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_rect"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="belizenearme.infoservices.lue.belize.SellMoreDetailsActivity"
+    tools:showIn="@layout/activity_sell_more_details">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+
+                android:orientation="vertical">
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+
+                    android:layout_alignParentTop="true"
+                    android:orientation="vertical">
+
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="0dp"
+                        android:layout_gravity="center_horizontal"
+                        android:orientation="vertical"
+                        android:padding="10dp"
+                        >
+
+
+                        <android.support.design.widget.TextInputLayout
+                            android:id="@+id/titleLayout"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="10dp"
+                            android:background="@drawable/text_rect"
+                            >
+                            <EditText
+                                android:id="@+id/titleEdit"
+                                android:layout_width="match_parent"
+                                android:layout_marginTop="5dip"
+                                android:layout_height="wrap_content"
+                                android:hint="@string/product_title"
+                                android:inputType="textCapWords"
+
+                                android:maxLength="50"
+                                android:textSize="@dimen/input_txt_size_xlarge"
+                                android:textColorHint="@color/hint_input_txt" />
+                        </android.support.design.widget.TextInputLayout>
+                        <android.support.design.widget.TextInputLayout
+                            android:id="@+id/descriptionLayout"
+                            android:layout_width="match_parent"
+                            android:layout_height="150dp"
+                            android:layout_marginTop="10dp"
+                            android:background="@drawable/text_rect"
+                            >
+                            <EditText
+                                android:id="@+id/descriptionEdit"
+                                android:layout_width="match_parent"
+                                android:layout_marginTop="5dip"
+                                android:layout_height="wrap_content"
+                                android:hint="@string/product_description"
+                                android:inputType="text"
+
+                                android:textSize="@dimen/input_txt_size_xlarge"
+                                android:maxLength="500"
+                                android:textColorHint="@color/hint_input_txt" />
+                        </android.support.design.widget.TextInputLayout>
+                        <android.support.design.widget.TextInputLayout
+                            android:id="@+id/priceLayout"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="10dp"
+                            android:background="@drawable/text_rect"
+                            >
+                            <EditText
+                                android:id="@+id/priceEdit"
+                                android:layout_width="match_parent"
+                                android:layout_marginTop="5dip"
+                                android:layout_height="wrap_content"
+                                android:hint="@string/price"
+                                android:inputType="number"
+                                android:maxLength="6"
+                                android:textSize="@dimen/input_txt_size_xlarge"
+                                android:textColorHint="@color/hint_input_txt" />
+                        </android.support.design.widget.TextInputLayout>
+                        <android.support.design.widget.TextInputLayout
+                            android:id="@+id/discountLayout"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="10dp"
+                            android:background="@drawable/text_rect"
+                            >
+                            <EditText
+                                android:id="@+id/discountEdit"
+                                android:layout_width="match_parent"
+                                android:layout_marginTop="5dip"
+                                android:layout_height="wrap_content"
+                                android:hint="@string/discount"
+                                android:inputType="number"
+                                android:maxLength="3"
+
+                                android:textSize="@dimen/input_txt_size_xlarge"
+                                android:textColorHint="@color/hint_input_txt" />
+                        </android.support.design.widget.TextInputLayout>
+                        <android.support.design.widget.TextInputLayout
+                            android:id="@+id/salesUnitLayout"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="10dp"
+                            android:background="@drawable/text_rect"
+                            >
+                            <EditText
+                                android:id="@+id/salesUnitEdit"
+                                android:layout_width="match_parent"
+                                android:layout_marginTop="5dip"
+                                android:layout_height="wrap_content"
+                                android:hint="@string/sales_unit"
+                                android:maxLength="5"
+                                android:inputType="number"
+
+                                android:textSize="@dimen/input_txt_size_xlarge"
+                                android:textColorHint="@color/hint_input_txt" />
+                        </android.support.design.widget.TextInputLayout>
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:padding="10dp"
+                            android:background="@drawable/text_rect"
+                            android:layout_marginTop="10dp">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:gravity="center"
+                                android:layout_alignParentLeft="true"
+                                android:layout_centerHorizontal="true"
+                                android:textSize="@dimen/input_txt_size_xlarge"
+                                android:text="@string/payment"
+                                android:ellipsize="end" />
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:gravity="center"
+                              android:layout_alignParentRight="true"
+                                android:layout_centerHorizontal="true"
+                                android:textSize="@dimen/input_txt_size_xlarge"
+                                android:text="@string/cash"
+                                android:ellipsize="end" />
+
+                        </RelativeLayout>
+
+
+                        <RelativeLayout
+                            android:id="@+id/locationLayout"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:padding="10dp"
+                            android:background="@drawable/text_rect"
+                            android:layout_marginTop="10dp">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:gravity="center"
+                                android:layout_centerVertical="true"
+                                android:layout_alignParentLeft="true"
+                                android:layout_centerHorizontal="true"
+                                android:textSize="@dimen/input_txt_size_xlarge"
+                                android:text="@string/location"
+                                android:ellipsize="end" />
+                            <TextView
+                                android:id="@+id/locationText"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:gravity="center"
+                                android:textSize="@dimen/input_txt_size_xlarge"
+                                android:drawableRight="@drawable/next"
+                                android:ellipsize="end"
+                                android:layout_alignParentTop="true"
+                                android:layout_alignParentRight="true"
+                                android:layout_alignParentEnd="true" />
+
+                        </RelativeLayout>
+
+                    </LinearLayout>
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="20dp"
+                        android:layout_marginTop="20dp">
+
+                        <Button
+                            android:id="@+id/publishBtn"
+                            android:layout_width="265dip"
+                            android:layout_height="40dip"
+                            android:layout_centerHorizontal="true"
+                            android:layout_marginTop="5dip"
+                            android:background="@drawable/button_rect"
+                            android:text="@string/publish"
+                            android:gravity="center"
+                            android:textColor="@color/white"
+                            android:textStyle="bold" />
+
+                    </RelativeLayout>
+
+                </LinearLayout>
+            </LinearLayout>
+
+        </RelativeLayout>
+
+
+    </ScrollView>
+
+</RelativeLayout>

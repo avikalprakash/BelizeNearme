@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#705572"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="belizenearme.infoservices.lue.belize.PrivacypoliciesActivity"
+    tools:showIn="@layout/activity_privacypolicies">
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="10dp">
+       <!-- <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/privacypolicies"
+            android:text="This Privacy Policy covers our treatment of information, including Personal Information (defined below) that we gather when you access or use any online service location that posts a link to this Privacy Policy and also applies to your use of our website(s), products, services and mobile applications (collectively, the “Services”), but not to the practices of companies we don’t own or control, or people that we don’t manage. We gather various types of information from our users, as explained in more detail below, and we use this information for you to interact with our Services, internally in connection with our Services, including to personalize, provide, and improve our Services, to allow you to set up a user account and profile, to contact you and allow other users to contact you, to fulfill your requests for certain products and services, and to analyze how you use the Services. In certain cases, we may also share some Personal Information with third parties as described below. Please link to http://belizenearme.com/ for more details."
+            android:textSize="16sp"
+            android:textColor="@color/white"
+            android:layout_marginLeft="16sp"
+            android:layout_marginTop="60sp"
+            android:layout_marginRight="16sp"
+            android:layout_marginBottom="16sp"/>-->
+        <WebView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/webView"></WebView>
+    </LinearLayout>
+        </RelativeLayout>
+</ScrollView>
+</RelativeLayout>

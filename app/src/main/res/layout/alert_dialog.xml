@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="10dp"
+    android:layout_marginLeft="10dp"
+
+    >
+    <android.support.v7.widget.AppCompatTextView
+        android:id="@+id/titleText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:drawableLeft="@drawable/ic_delete"
+        android:textColor="@color/md_blue_grey_600"
+       android:text="Delete"
+        android:textStyle="bold|italic"
+        android:gravity="center_vertical"
+        />
+    <android.support.v7.widget.AppCompatTextView
+        android:id="@+id/messageText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical|center_horizontal"
+        android:text="Are you sure you want to delete ?"
+        android:textColor="@color/md_blue_grey_600"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
+        />
+    <CheckBox
+        android:id="@+id/checkbox"
+        android:checked="false"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:textColor="@color/md_blue_grey_600"
+        android:text="check for delete"/>
+</LinearLayout>

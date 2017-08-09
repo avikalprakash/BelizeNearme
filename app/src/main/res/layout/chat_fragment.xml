@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:background="@drawable/background_rect"
+
+    android:layout_height="match_parent">
+
+
+        <android.support.design.widget.TabLayout
+            android:id="@+id/tabLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="top"
+            app:tabSelectedTextColor="@color/colorAccent"
+            app:tabTextColor="@color/white"
+            >
+                <android.support.design.widget.TabItem
+                    android:id="@+id/buyTab"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Buy"
+                    android:icon="@drawable/buy_icon"
+                    />
+                <android.support.design.widget.TabItem
+                android:id="@+id/sellTab"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                    android:text="Sell"
+                    android:icon="@drawable/sell_icon"
+
+
+                />
+
+            </android.support.design.widget.TabLayout>
+    <android.support.v4.view.ViewPager
+        android:id="@+id/viewPager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    </android.support.v4.view.ViewPager>
+
+</LinearLayout>

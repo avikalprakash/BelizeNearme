@@ -1,0 +1,87 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 25
+    buildToolsVersion "25.0.3"
+    useLibrary 'org.apache.http.legacy'
+    /*  dexOptions {
+        incremental true
+        javaMaxHeapSize "2048M"
+
+    }*/
+    defaultConfig {
+        applicationId "belizenearme.infoservices.lue.belize"
+        minSdkVersion 16
+        targetSdkVersion 25
+        versionCode 1
+        versionName "1.0"
+        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+        multiDexEnabled true
+        vectorDrawables.useSupportLibrary = true
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+    repositories {
+        maven {
+            url "https://jitpack.io"
+        }
+    }
+    productFlavors {
+    }
+}
+
+dependencies {
+    compile fileTree(include: ['*.jar'], dir: 'libs')
+    androidTestCompile('com.android.support.test.espresso:espresso-core:2.2.2', {
+        exclude group: 'com.android.support', module: 'support-annotations'
+    })
+    compile files('libs/volley.jar')
+    compile project(path: ':k4l-video-trimmer')
+    compile files('libs/commons.io_2.0.1.jar')
+
+    // Firebase
+    
+
+    // Firebase UI
+    
+
+    // Firebase UI
+    compile 'com.google.android.gms:play-services-ads:10.2.1'
+    compile 'com.google.firebase:firebase-messaging:10.2.1'
+    compile 'com.google.firebase:firebase-analytics:10.2.1'
+    compile 'com.firebaseui:firebase-ui-database:1.2.0'
+    compile 'com.google.firebase:firebase-messaging:10.2.1'
+    compile 'com.google.android.gms:play-services-ads:10.2.1'
+    compile 'com.google.firebase:firebase-analytics:10.2.1'
+    compile 'com.firebaseui:firebase-ui-database:1.2.0'
+    compile 'com.android.support:appcompat-v7:25.3.1'
+    compile 'com.android.support.constraint:constraint-layout:1.0.2'
+    compile 'com.android.support:design:25.3.1'
+    compile 'com.mikhaellopez:circularimageview:3.0.2'
+    compile 'com.facebook.android:facebook-android-sdk:4.23.0'
+    compile 'com.google.android.gms:play-services-auth:10.2.1'
+    compile 'com.pkmmte.view:circularimageview:1.1'
+    compile 'me.everything:overscroll-decor-android:1.0.4'
+    compile 'com.google.android.gms:play-services-maps:10.2.1'
+    compile 'com.github.darsh2:MultipleImageSelect:v0.0.4'
+    compile 'net.gotev:uploadservice:3.0.3'
+    compile 'com.android.support:support-vector-drawable:25.3.1'
+    compile 'com.felipecsl.asymmetricgridview:library:2.0.1'
+    compile 'com.android.support:support-v4:25.3.1'
+    compile 'com.android.support:recyclerview-v7:25.3.1'
+    compile 'de.hdodenhof:circleimageview:1.3.0'
+    compile 'com.google.firebase:firebase-database:10.2.1'
+    compile 'com.google.firebase:firebase-storage:10.2.1'
+    compile 'com.google.firebase:firebase-auth:10.2.1'
+    compile 'com.google.firebase:firebase-config:10.2.1'
+    compile 'com.google.android.gms:play-services-appinvite:10.2.1'
+    compile 'com.google.firebase:firebase-appindexing:10.2.1'
+    compile 'com.google.firebase:firebase-crash:10.2.1'
+    compile 'com.android.support:cardview-v7:25.3.1'
+    testCompile 'junit:junit:4.12'
+}
+apply plugin: 'com.google.gms.google-services'

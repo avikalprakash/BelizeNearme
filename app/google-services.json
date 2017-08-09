@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "516629268995",
+    "firebase_url": "https://belize-nearme-3d2fe.firebaseio.com",
+    "project_id": "belize-nearme-3d2fe",
+    "storage_bucket": "belize-nearme-3d2fe.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:516629268995:android:c327cb6f8463f5de",
+        "android_client_info": {
+          "package_name": "belizenearme.infoservices.lue.belize"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "516629268995-vg4qmbg1lmaj644mtghka75jta6ljkp4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAa8BtWA_u2R0ZTnQeqRdI1qnqIJVpqP8I"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

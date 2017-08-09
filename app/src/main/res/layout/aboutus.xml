@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#705572"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="belizenearme.infoservices.lue.belize.AboutusActivity"
+    tools:showIn="@layout/activity_aboutus">
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp">
+
+<WebView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:id="@+id/web"
+    android:layout_marginTop="10dp"></WebView>
+   <!--     <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/aboutus"
+            android:text="Launched in 2017, we at Belize Nearme are working to create the best experience for local buying and selling online. We wanted to create a simple, secure environment where buyers and sellers can easily trade goods from the palm of their hand. Using the power of your mobile phone, Belize Nearme has made selling as simple as taking a selfie and buying as easy as commenting on one. And free for everyone to use. Easy Snap a photo, enter a short description, and be selling to thousands of potential buyers within seconds. Belize Nearme uses your phone's location to reach a multitude of buyers and sellers in your area.
+
+             And making an offer is as quick and easy as sending a text message. Safe Along with feedback ratings, users can verify their identity by phone or via Facebook, so buyers and sellers can feel confident they are dealing with a real person. At the same time, our messaging system keeps your contact info secret so you can finally relax, no unwanted messages when using Belize Nearme. And unlike most marketplaces, our support team is always hard at work reviewing items posted on Belize Nearme, making sure they meet our high standards so you can buy without worry.
+
+             Fun Flick through photos to your heart's content and find a great deal near you as you scroll through our beautiful app. “Like” your favorite items, follow great sellers, and make new connections with people in your area who are selling interesting stuff with Belize Nearme."
+            android:textSize="16sp"
+            android:textColor="@color/white"
+            android:layout_marginLeft="16sp"
+            android:layout_marginTop="60sp"
+            android:layout_marginRight="16sp"
+            android:layout_marginBottom="16sp"/>-->
+    </LinearLayout>
+</RelativeLayout>
+</ScrollView>
+</RelativeLayout>

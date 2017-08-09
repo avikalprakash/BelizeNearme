@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#00ddcc</color>
+    <color name="dark_red">#B73325</color>
+    <color name="white">#ffffff</color>
+    <color name="input_txt">#000000</color>
+    <color name="hint_input_txt">#57575F</color>
+    <color name="black_trans_50">#921D1D1B</color>
+    <color name="yellow">#F4ED7F</color>
+    <color name="cyent">#C1C1C1</color>
+    <color name="cyent_light">#E8E9EB</color>
+    <color name="transparency">#00000000</color>
+    <color name="back_ground_layer">#aaffffff</color>
+
+    <color name="list_background">#55000000</color>
+    <color name="toolbar_color">#6D315A</color>
+    <color name="toolbar_color_transparent">#996D315A</color>
+    <color name="statusbar_color">#5c2049</color>
+    <color name="black">#99000000</color>
+    <color name="light_grey">#cccccc</color>
+    <color name="grey_transparent">#55555555</color>
+    <color name="blue">#3080B8</color>
+    <color name="red">#ee0000</color>
+    <color name="green">#009900</color>
+    <color name="light_green">#99cc99</color>
+    <color name="light_white">#eeeeee</color>
+    <color name="black_transparent">#55000000</color>
+    <color name="md_blue_grey_600">#546E7A</color>
+</resources>

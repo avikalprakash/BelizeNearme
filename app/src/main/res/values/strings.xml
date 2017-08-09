@@ -1,0 +1,221 @@
+<resources>
+    <string name="app_name">Belize Nearme</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_welcome">WelcomeActivity</string>
+
+    <string name="create_account">Create Account</string>
+    <string name="log_in">Login</string>
+    <string name="title_activity_create_account">CreateAccountActivity</string>
+    <string name="privacy_policy">By signing up, you agree with the <u>privacy policy</u></string>
+
+    <string name="privacy_policy_accepted">You are agreeing terms and conditions</string>
+    <string name="fullName">Full Name</string>
+    <string name="first_name">First Name</string>
+    <string name="last_name">Last Name</string>
+    <string name="mid_name">Middle Name</string>
+    <string name="password">Password</string>
+    <string name="email_id">Email Id</string>
+
+    <string name="login">LOGIN</string>
+    <string name="sign_up">SIGN UP</string>
+    <string name="skip">SKIP</string>
+    <string name="submit">SUBMIT</string>
+    <string name="verify">VERIFY</string>
+    <string name="title_activity_login">LoginActivity</string>
+
+    <string name="forgot_password">Forgot password?</string>
+    <string name="title_activity_forgot_password">ForgotPasswordActivity</string>
+
+    <string name="mobile_no">Mobile number</string>
+    <string name="verification_code_send_to">Verification Code will be sent to the given mobile number</string>
+    <string name="send">Send</string>
+    <string name="title_activity_code_verification">CodeVerificationActivity</string>
+    <string name="verfication_code_sent_to">Verification Code sent to</string>
+    <string name="enter_verification_code_to_verify">Enter verification code to verify</string>
+    <string name="set_new_password">Set new password</string>
+    <string name="enter_password">Enter password</string>
+    <string name="re_enter_password">Re enter password</string>
+    <string name="set_password">Set password</string>
+    <string name="title_activity_code_verify">CodeVerifyActivity</string>
+    <string name="enter_verification_code">Enter verification code</string>
+    <string name="title_activity_main">MainActivity</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+
+    <string name="profile">Profile</string>
+    <string name="myproduct">MY Products</string>
+    <string name="post">Post</string>
+    <string name="new_deal">New Deal</string>
+    <string name="inbox">Inbox</string>
+    <string name="faq">FAQ</string>
+    <string name="settings">Settings</string>
+    <string name="sign_out">Sign out</string>
+    <string name="title_activity_profile">ProfileActivity</string>
+    <string name="phone_no">Phone</string>
+    <string name="email">Email</string>
+    <string name="phone_email">Phone or Email</string>
+    <string name="edit">Edit</string>
+    <string name="change_password">Change password</string>
+    <string name="title_activity_settings">SettingsActivity</string>
+
+    <string name="about_us">About Us</string>
+    <string name="support">Support</string>
+    <string name="privacy_plicies">Privacy policies</string>
+    <string name="terms_of_use">Terms of use</string>
+    <string name="leave_feedback">Leave feedback</string>
+    <string name="notifications">Notifications</string>
+    <string name="title_activity_change_password">ChangePasswordActivity</string>
+    <string name="current_password">Current Password</string>
+    <string name="new_password">New Password</string>
+    <string name="re_enter_new_password">Re enter new password </string>
+    <string name="title_activity_sign_up_code_verify">SignUpCodeVerifyActivity</string>
+
+    <string name="home">Home</string>
+    <string name="category">Category</string>
+    <string name="chat">Chat</string>
+
+
+    <string-array name="category_list">
+        <item>Real estate</item>
+        <item>Cars/Automotive</item>
+        <item>General</item>
+        <item>Entertainment</item>
+        <item>Notices</item>
+        <item>Personal</item>
+    </string-array>
+
+
+    <string-array name="employment">
+        <item>Situations Vacant</item>
+        <item>Situations Wanted</item>
+    </string-array>
+
+    <string-array name="real_estate">
+        <item>To Let</item>
+        <item>Accomodation</item>
+        <item>Land wanted</item>
+        <item>Land for sale</item>
+        <item>wanted to rent</item>
+        <item>House wanted</item>
+        <item>House for sale</item>
+        <item>Property for sale</item>
+        <item>Wanted to share</item>
+    </string-array>
+
+    <string-array name="cars">
+        <item>Vehicles for sale</item>
+        <item>Vehicles Wanted</item>
+    </string-array>
+
+    <string-array name="general">
+        <item>Auctions</item>
+        <item>Pets</item>
+        <item>Boat &amp; Marine</item>
+        <item>Lost &amp; found</item>
+        <item>For hire</item>
+        <item>For sale</item>
+        <item>Wanted to buy</item>
+    </string-array>
+
+    <string-array name="entertainment">
+        <item>Entertainment</item>
+    </string-array>
+
+    <string-array name="notices">
+        <item>Personal</item>
+        <item>Tenders</item>
+        <item>Funerals</item>
+        <item>Public notices</item>
+        <item>Deaths</item>
+        <item>Bussiness notices</item>
+        <item>Government notices</item>
+        <item>In memoriam</item>
+    </string-array>
+
+    <string-array name="personal">
+        <item>Engagements</item>
+        <item>Marriages</item>
+        <item>Birth</item>
+        <item>Birthday</item>
+        <item>Anniversaries</item>
+        <item>Bussiness notices</item>
+        <item>Graduation</item>
+        <item>Valentines</item>
+    </string-array>
+
+
+    <string name="loading">Loading...</string>
+    <string name="no_valid_email_address_is_available"> no valid email address is available</string>
+    <string name="facebook_app_id">467436200265684</string>
+    <string name="server_client_id">YOUR_SERVER_CLIENT_ID</string>
+    <string name="fb_login_protocol_scheme">fb467436200265684</string>
+
+    <string name="enter">Enter </string>
+    <string name="passowrd_not_matched">Password not matched</string>
+    <string name="phone_or_password_wrong">Phone no or password is not correct!</string>
+    <string name="title_activity_product_details">Product Details</string>
+    <string name="title_activity_my_product_details">My Product Details</string>
+    <string name="tittle_activity_edit_my_product">My Edit Product</string>
+
+    <string name="seller_name">Seller name</string>
+    <string name="add_to_favorite">Add to favorite</string>
+    <string name="contact_seller">Contact seller</string>
+    <string name="share">Share</string>
+    <string name="report">Report</string>
+
+    <string name="real_estate">Real Estate</string>
+    <string name="employment">Employment</string>
+    <string name="cars_automatives">Cars/Automotive</string>
+    <string name="general">General</string>
+    <string name="entertainment">Entertainment</string>
+    <string name="notices">Notices</string>
+    <string name="personal">Personal</string>
+    <string name="sponsored">Sponsored</string>
+    <string name="tutoring_service">Tutoring Services</string>
+    <string name="title_activity_category">Category</string>
+    <string name="sell">Sell</string>
+    <string name="update">Update</string>
+    <string name="updated_successfully">Updated successfully</string>
+    <string name="by">By</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="saving">Saving...</string>
+    <string name="title_activity_sell">SellActivity</string>
+    <string name="gallary">Gallary</string>
+    <string name="camera">Camera</string>
+    <string name="sell_your_product">Sell your product</string>
+    <string name="trimming_progress">Trimming your video...</string>
+    <string name="file_size_exceeds">File size exceeds(Max 20 MB)</string>
+    <string name="title_activity_video_trimmer">Trim Video</string>
+    <string name="title_activity_sell_more_details">More information</string>
+
+    <string name="product_title">Product title</string>
+    <string name="product_description">Product description</string>
+    <string name="price">Price</string>
+    <string name="sales_unit">Sales unit</string>
+    <string name="payment">Payment</string>
+    <string name="location">Location</string>
+    <string name="cash">Cash</string>
+    <string name="publish">Publish</string>
+    <string name="discount">Discount(%)</string>
+    <string name="please_wait_for_location">Please wait for location</string>
+    <string name="published_successfully">Published successfully</string>
+
+    <string name="banner_ad_unit_id">ca-app-pub-5955269292129096~4112273478</string>
+    <string name="load_more">Load more</string>
+    <string name="title_activity_main2">Main2Activity</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+    <string name="buy">Buy</string>
+    <string name="title_activity_bottom_nav">BottomNavActivity</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="title_activity_chat">ChatActivity</string>
+    <string name="title_activity_chatting">Belize Chat</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+</resources>
